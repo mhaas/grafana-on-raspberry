@@ -1,4 +1,5 @@
-FROM resin/armv7hf-debian:jessie
+#FROM resin/armv7hf-debian:jessie
+FROM armhf/debian:jessie
 
 ARG GRAFANA_VERSION
 ARG PKG_NAME

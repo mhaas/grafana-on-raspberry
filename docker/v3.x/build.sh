@@ -22,4 +22,4 @@ echo "DOCKER TAG: ${_grafana_tag}"
 docker build                                           \
        --build-arg GRAFANA_VERSION=${_grafana_version} \
        --build-arg PKG_NAME=${_pkg_name}               \
-       --tag "fg2it/grafana-armhf:${_grafana_tag}" .
+       --tag "mhaas/grafana-armhf:${_grafana_tag}" .
